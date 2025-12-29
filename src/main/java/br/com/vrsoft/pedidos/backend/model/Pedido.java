@@ -1,4 +1,4 @@
-package br.com.vrsoft.backend.model;
+package br.com.vrsoft.pedidos.backend.model;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package br.com.vrsoft.backend.config;
+package br.com.vrsoft.pedidos.backend.config;
 
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;

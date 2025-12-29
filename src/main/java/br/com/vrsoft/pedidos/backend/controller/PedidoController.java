@@ -1,7 +1,8 @@
-package br.com.vrsoft.backend.controller;
+package br.com.vrsoft.pedidos.backend.controller;
 
-import br.com.vrsoft.backend.model.Pedido;
-import br.com.vrsoft.backend.service.PedidoService;
+import br.com.vrsoft.pedidos.backend.model.Pedido;
+import br.com.vrsoft.pedidos.backend.service.PedidoService;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

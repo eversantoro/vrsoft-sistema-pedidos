@@ -1,7 +1,8 @@
-package br.com.vrsoft.backend.service;
+package br.com.vrsoft.pedidos.backend.service;
 
-import br.com.vrsoft.backend.config.RabbitConfig;
-import br.com.vrsoft.backend.model.Pedido;
+import br.com.vrsoft.pedidos.backend.config.RabbitConfig;
+import br.com.vrsoft.pedidos.backend.model.Pedido;
+
 import org.springframework.amqp.AmqpRejectAndDontRequeueException;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;

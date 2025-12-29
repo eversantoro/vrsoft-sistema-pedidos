@@ -1,8 +1,9 @@
-package br.com.vrsoft.backend;
+package br.com.vrsoft.pedidos.backend;
 
-import br.com.vrsoft.backend.config.RabbitConfig;
-import br.com.vrsoft.backend.model.Pedido;
-import br.com.vrsoft.backend.service.PedidoService;
+import br.com.vrsoft.pedidos.backend.config.RabbitConfig;
+import br.com.vrsoft.pedidos.backend.model.Pedido;
+import br.com.vrsoft.pedidos.backend.service.PedidoService;
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
