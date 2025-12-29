@@ -41,7 +41,10 @@ public class PedidoController {
 			return ResponseEntity.badRequest().build(); // HTTP 400
 		}
 
-		pedido.setId(UUID.randomUUID());
+		if (pedido.getId() == null) {
+	        pedido.setId(UUID.randomUUID());
+	    }
+		
 		pedido.setDataCriacao(LocalDateTime.now());
 
 		pedidoService.registrarPedido(pedido);
